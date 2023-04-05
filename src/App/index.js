@@ -1,5 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
+import Header from '../Header';
 import './App.css';
 
 class App extends React.Component {
@@ -12,10 +13,11 @@ class App extends React.Component {
       history.push(route);
     }
   }
-  
+
   render() {
     return (
       <div className="app">
+        <Header />
         YEEHAW
       </div>
     );

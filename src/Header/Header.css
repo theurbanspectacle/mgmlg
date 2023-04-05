@@ -1,0 +1,26 @@
+.header {
+    height: 450px;
+    background-image: url('https://images-0.rakuten.tv/storage/snapshot/shot/28480e6c-3901-4a93-9f4d-22e510ca0979-snapshot-1590664131.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 87.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.header .logo {
+    width: 180px;
+    height: 180px;
+}
+
+.header .logo-text {
+    margin-left: 20px;
+    margin-top: 28px;
+    color: white;
+    font-size: 45px;
+}
+
+.header .logo-text .subtext {
+    font-size: 30px;
+}
