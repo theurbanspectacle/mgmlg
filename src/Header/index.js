@@ -9,7 +9,8 @@ export default class Header extends React.Component {
                 <img className="logo" src={logo} alt="Yeehaw" />
                 <div className="logo-text">
                     <div>&#60;yeehaw&#62;</div>
-                    <div className="subtext">Moon Guard</div>
+                    <div className="subtext">Moon Guard, US</div>
+                    <div className="coming-soon">WIP/COMING SOON</div>
                 </div>
             </div>
         );

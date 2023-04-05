@@ -18,7 +18,7 @@ class App extends React.Component {
     return (
       <div className="app">
         <Header />
-        YEEHAW
+       Made with love, by Lavenderism.
       </div>
     );
   }
