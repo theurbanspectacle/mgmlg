@@ -1,11 +1,25 @@
+import React from 'react';
+import { withRouter } from 'react-router-dom';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-     YEEHAW
-    </div>
-  );
-}
+class App extends React.Component {
+  componentDidMount() {
+    const { history } = this.props
+    const route = localStorage.getItem('route');
 
-export default App;
+    if (route) {
+      localStorage.removeItem('route');
+      history.push(route);
+    }
+  }
+  
+  render() {
+    return (
+      <div className="app">
+        YEEHAW
+      </div>
+    );
+  }
+};
+
+export default withRouter(App);
