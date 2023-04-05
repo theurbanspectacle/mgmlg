@@ -1,22 +1,23 @@
 .header {
-    height: 550px;
-    background-image: url('https://images-0.rakuten.tv/storage/snapshot/shot/28480e6c-3901-4a93-9f4d-22e510ca0979-snapshot-1590664131.jpeg');
-    background-position: center;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp6686337.jpg');
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 87.5px;
-    display: flex;
-    justify-content: center;
+    /* padding-top: 87.5px;  */
+    position: relative;
 }
 
 .header .logo {
-    margin-top: 5px;
+    margin-top: 100px;
+    margin-left: 100px;
     width: 100px;
     height: 100px;
 }
 
 .header .logo-text {
-    margin-left: 20px;
+    margin-left: 225px;
+    margin-top: -115px;
     color: white;
     font-size: 45px;
     text-shadow: 1px 1px black;
@@ -26,10 +27,16 @@
     font-size: 30px;
 }
 
-.coming-soon {
+.header .coming-soon {
     font-size: 70px;
-    margin-top: 200px;
-    margin-right: 20px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.footer {
+    margin-left: 410px;
+    font-size: 15px;
+    text-shadow: 1px 1px black;
 }
 /* https://images-0.rakuten.tv/storage/snapshot/shot/28480e6c-3901-4a93-9f4d-22e510ca0979-snapshot-1590664131.jpeg' */
 
